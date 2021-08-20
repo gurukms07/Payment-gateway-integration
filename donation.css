@@ -1,0 +1,58 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Spartan', sans-serif;
+}
+h1 {
+    width: 100%;
+    color: rgba(139, 209, 221, 0.897);
+    text-align: center;
+}
+
+.donation-page {
+    height: 100vh;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("./children.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.hell{
+    color: rgb(243, 199, 199);
+}
+.form {
+    height: 80vh;
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    z-index: 10;
+}
+.back{
+    height: 100vh;
+    width: 100%;
+    color: rgb(0, 128, 128);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("./cimg.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.back:hover{
+    color: rgb(0, 128, 128);
+}
+
+@media only screen and (max-width: 600px) {
+    .form {
+        width: 80%;
+    }
+}
